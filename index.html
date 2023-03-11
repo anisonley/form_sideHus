@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bask</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header class="header">
+    <h1>
+     Bask Conference
+    </h1>
+  </header>
+  <main>
+    <form action="" method="*">
+      <fieldset class="container">
+        <legend>
+           Sign-up
+        </legend>
+        <div>
+          <label for="firstName">First Name: </label>
+          <input type="text" name="firstName" id="firstName" placeholder="type your first name" required>
+        </div>
+        <div>
+          <label for="lastName">Last Name: </label>
+          <input type="text" name="lastName" id="lastName" placeholder="type your last name" required>
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="type your email here" required>
+      </div>
+      <div>
+        <label for="phoneNumber">Phone: </label>
+        <input type="tel" name="phoneNumber" id="phoneNumber"  pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="1234-567-8910" required>
+      </div>
+      <div class="gender">
+        <label for="sex" required >Gender: 
+        <label for="sex">male </label>
+        <input type="radio" name="sex" id="male" value="male" required>
+        <label for="sex">female </label>
+        <input type="radio" name="sex" id="female" value="female">
+      </label>
+      </div>
+      <button class="btn" onclick="alert">submit</button>
+      </fieldset>
+    </form>
+  </main>
+  <footer class="foot">
+    <p> copyright &copy; 2023 </p>
+  </footer>
+  <script type="text/javascript">
+
+    if (confirm("Successful")) {
+    txt = "You pressed OK!";
+    } else {
+      txt = "Please fill out the required";
+    }
+  </script>
+</body>
+</html>
