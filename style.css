@@ -2,15 +2,16 @@
   margin: o;
   padding: 0;
   box-sizing: border-box;
-  background-color: #343a40;
-  color: white;
 }
 
 body{
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 100vh;
   text-align: justify;
   text-indent: 2rem;
 }
-
+ 
 h1{
   text-align: center;
   text-transform: uppercase;
@@ -18,25 +19,33 @@ h1{
   
 }
 main{
-  text-align: center;
+  justify-content: center;
+  text-align: justify;
   text-decoration: none;
   line-height: 2;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .container{
+  background: #14213D;
   display: flexbox;
-  margin: 20px;
+  height: 58vh;
+  width: fit-content;
+  margin: auto;
   padding-bottom: 1rem; 
-  border: 3px solid gold;
+  border: 3px solid #E5E5E5;
   text-align: center;
   display: list-item;
   justify-content: center;
  }
 
  input{
+  display: inline-flexbox;
   background-color: aliceblue;
   color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  border: #E5E5E5;
  }
 
  input[type=text] {
@@ -47,17 +56,21 @@ main{
  }
 
  input[type=email] {
-  width: 47.8%;
+  width: 50%;
   padding: 6px 10px;
   margin: 8px 0;
   box-sizing: border-box;
  }
 
  input[type=tel] {
-  width: 48%;
+  width: 50%;
   padding: 6px 10px;
   margin: 8px 0;
   box-sizing: border-box;
+ }
+
+ .emailLabel{
+  padding-right: 30px;
  }
 
  .gender {
@@ -71,14 +84,14 @@ main{
 
 .btn{
   border-radius: 6px;
-  background: #f39422;
+  background: #FCA311;
   border-color: #f39422;
   width: 35%;
   padding: 6px 10px;
   cursor: pointer;
 }
 .btn:hover{
-  background: #cc832b;
+  background: #e99104;
 }
 
 .foot {
