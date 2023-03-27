@@ -17,9 +17,6 @@
   <main>
     <form action="" method="*">
       <fieldset class="container">
-        <legend>
-           Sign-up
-        </legend>
         <div>
           <label for="firstName">First Name: </label>
           <input type="text" name="firstName" id="firstName" placeholder="type your first name" required>
@@ -44,20 +41,14 @@
           <input type="radio" name="sex" id="female" value="female">
         </label>
         </div>
-        <button class="btn" onclick="alert">submit</button>
+        <button class="btn" onclick="submited()">submit</button>
       </fieldset>
     </form>
   </main>
   <footer class="foot">
     <p> copyright &copy; event-hub 2023 </p>
   </footer>
-  <script type="text/javascript">
+  <script type="text/javascript" src="index.js">
 
-    if (confirm("Successful")) {
-    txt = "You pressed OK!";
-    } else {
-      txt = "Please fill out the required";
-    }
   </script>
 </body>
-</html>
