@@ -89,6 +89,7 @@ main{
   border-color: #f39422;
   width: 35%;
   padding: 6px 10px;
+  font-size: medium;
   cursor: pointer;
 }
 .btn:hover{
