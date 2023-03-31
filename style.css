@@ -5,8 +5,8 @@
 }
 
 body{
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #E7E7E7;
+  color:  #000000;
   height: 100vh;
   text-align: justify;
   text-indent: 2rem;
@@ -27,14 +27,15 @@ main{
 }
 
 .container{
-  background: #14213D;
+  background: #F24C00;
   display: flexbox;
   height: 58vh;
   width: fit-content;
   margin: auto;
   padding-top: 45px;
   padding-bottom: 1rem; 
-  border: 5px solid #E5E5E5;
+  border: 5px solid #F9C784;
+  border-radius: 10px ;
   text-align: center;
   display: list-item;
   justify-content: center;
@@ -85,7 +86,7 @@ main{
 
 .btn{
   border-radius: 6px;
-  background: #FCA311;
+  background: #FC7A1E;
   border-color: #f39422;
   width: 35%;
   padding: 6px 10px;
@@ -93,7 +94,7 @@ main{
   cursor: pointer;
 }
 .btn:hover{
-  background: #e99104;
+  background: #dd7327;
 }
 
 .foot {
